@@ -1,7 +1,7 @@
 # News-Application-python-flask-aws-javascript-html-and-css
 A news application using Google news API
 
-<h1>Please see the Demo document for a runthrough. The application is compatible to all screen sizes.</h1>
+<h3>Please see the Description and screenshots document for a runthrough.</h3>
 
 <b>Technologies used:</b>
 <ol>

@@ -2,6 +2,10 @@
 A news application using Google news API
 
 Technologies used
+<ol>
+  <li>Python
+  <li> FLASK
+</ol>
 •	Python
 •	Flask
 •	Google news api

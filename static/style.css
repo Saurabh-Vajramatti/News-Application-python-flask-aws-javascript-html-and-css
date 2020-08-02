@@ -1,0 +1,189 @@
+.outerNewsDivForScroll{
+  overflow: scroll;
+  width:100%;
+}
+
+.outermostDiv{
+    height:1000px;
+    width:670px;
+    margin: auto;
+    display: flex;
+}
+
+.x{
+  cursor: pointer;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secondPageNewsCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.secondPageNewsCard{
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: rgb(247, 244, 244);
+  margin: auto;
+  width: 100%;
+  border-style: solid;
+  border-color:rgb(194, 194, 194);
+  display: flex;
+}
+
+
+.secondPageNewsCardExcess:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.secondPageNewsCardExcess{
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: rgb(247, 244, 244);
+  margin: auto;
+  width: 100%;
+  border-style: solid;
+  border-color:rgb(194, 194, 194);
+  display: none;
+}
+
+.newsDiv{
+    height:1000px;
+    width:550px;
+    margin-left: 130px;
+}
+
+.cnnDivStyle{
+  display: flex;
+  width: 550px;
+  height: 250px;
+}
+
+.foxDivStyle{
+  display: flex;
+  width: 550px;
+  height: 250px;
+}
+
+.topDiv{
+  height: 200px;
+  width: 550px;
+}
+
+.topDiv .i{
+  display: inline-block;
+}
+
+.slide{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .slide .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.wCloud{
+    margin-right: 0px;
+    background-color: rgb(240, 236, 236);
+    width: 200px;
+    height: 200px;
+}
+
+
+.buttonCollection{
+  position:fixed;
+}
+.buttonCollection .btn{
+    width: 120px;
+    display: block;
+    padding: 5px 5px;
+    margin-left: 3px;
+}
+
+.buttonCollection .btn:hover {
+    background-color: mediumseagreen;
+    color: white;
+    border-color: mediumseagreen;
+  }
+
+.buttonCollection .btnNotHome {
+    background-color:rgb(243, 239, 239);
+    border-color: rgb(194, 194, 194);   
+    color: black;
+    text-align: center;
+    cursor: text;
+}
+
+.buttonCollection .bbelow{
+  border-radius: 0 0 3px 3px;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttonCollection .btnHome {
+  background-color:rgb(84, 85, 85);
+  border-color:rgb(84, 85, 85);
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  cursor: text;
+}
+
+.buttonCollection .babove{
+  border-radius: 3px 3px 0 0;
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.searchBoxButtons{
+  border-width: 0px;
+  background-color: rgb(243, 239, 239);
+}
+.searchBoxButtons:hover {
+    background-color: mediumseagreen;
+    color: white;
+}
+  .showMoreButton{
+    background-color:rgb(235, 229, 229);
+    border-width: 0px;
+    color:black;
+    text-align: center;
+    border-radius: 2px;
+    font-style: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .showMoreButton:hover {
+    background-color: mediumseagreen;
+    color: white;
+  }
+
+
+  .showLessButton{
+    background-color:rgb(235, 229, 229);
+    border-width: 0px;
+    color:black;
+    text-align: center;
+    border-radius: 2px;
+    font-style: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .showLessButton:hover {
+    background-color: mediumseagreen;
+    color: white;
+  }
